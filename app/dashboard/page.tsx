@@ -9,6 +9,12 @@ import {
   LatestInvoicesSkeleton, 
 } from '@/app/ui/skeletons';
 
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Invoices | Acme Dashboard',
+};
+
 export default async function Dashboard() {
     return (
         <main>
